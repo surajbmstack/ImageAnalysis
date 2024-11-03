@@ -1,0 +1,50 @@
+/* Navbar.css */
+.navbar {
+    background-color: #4CAF50; /* Green background */
+    padding: 15px; /* Padding around the navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out links and buttons */
+    align-items: center; /* Center items vertically */
+    color: white; /* Text color */
+}
+
+.navbar ul {
+    list-style: none; /* Remove bullet points from list */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Flexbox for horizontal alignment */
+}
+
+.navbar li {
+    margin-right: 20px; /* Space between list items */
+}
+
+.navbar li:last-child {
+    margin-right: 0; /* Remove margin from last item */
+}
+
+.navbar a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make text bold */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.navbar button {
+    background-color: transparent; /* No background for button */
+    border: none; /* No border */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Make text bold */
+}
+
+.navbar button:hover {
+    text-decoration: underline; /* Underline button on hover */
+}
+
+/* Responsive styling */
+
+    

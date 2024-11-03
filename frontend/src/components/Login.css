@@ -1,0 +1,40 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width */
+    margin: auto; /* Center the form */
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0; /* Spacing between fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+.input-field:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #007bff; /* Primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
